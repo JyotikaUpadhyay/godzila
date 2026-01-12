@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Luxury fonts */
+:root {
+  --font-inter: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  --font-playfair: ui-serif, Georgia, "Times New Roman", serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings like luxury stores */
+h1, h2, h3 {
+  font-family: var(--font-playfair);
+}
+
+/* remove ugly default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
